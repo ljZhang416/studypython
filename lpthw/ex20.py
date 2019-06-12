@@ -8,6 +8,7 @@ def print_file(f):
 
 def rewind(f):
     print(f"打印{f}")
+    # seek() 方法用于移动文件读取指针到指定位置。
     f.seek(0)
     print(f"打印{f.seek(0)}")
 
